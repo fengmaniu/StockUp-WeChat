@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/trend/trend",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/personal/personal"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -17,6 +18,9 @@
     },{
       "pagePath": "pages/trend/trend",
       "text": "行情"
+    },{
+      "pagePath": "pages/trend/trend",
+      "text": "个人中心"
     }]
   }
 }
