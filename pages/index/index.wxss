@@ -3,8 +3,8 @@
   height: 150px;
 }
 .widgets__item{
-    margin-top: 20rpx;
-    margin-bottom: 20rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
     background-color: #FFFF00;
     overflow: hidden;
     border-radius: 4rpx;
@@ -12,7 +12,7 @@
 }
 .widgets__info{
     display: flex;
-    padding: 40rpx;
+    padding: 20rpx;
     align-items: center;
     flex-direction: row;
 }
@@ -23,6 +23,7 @@
 }
 .widgets__info-name{
     flex: 1;
+    size: 10rpx;
 }
 .widgets__info-img{
     width: 32rpx;

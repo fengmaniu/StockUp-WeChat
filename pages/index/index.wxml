@@ -13,8 +13,13 @@
             <block wx:for-items="{{list}}">
                 <view class="widgets__item">
                     <view id="{{item.id}}" class="widgets__info" >
-                        <text class="widgets__info-name">{{item.name}}</text>                       
-                        <view style="flex:0.3;background:#ffffff">test</view>
+                        <view style="flex-direction:column;flex:1">
+                            <view><text class="widgets__info-name"
+                            style="font-size:46rpx">{{item.name}}</text></view>  
+                            <view><text class="widgets__info-name"
+                            style="font-size:26rpx">{{item.name}}</text></view>     
+                        </view>                     
+                        <view style="flex:0.3;background:#ffffff;height:100rpx;">test</view>
                     </view>
                 </view>
                 <view style="background-color: #FFFFFF; width: 40px;display: flex;"></view>
