@@ -9,6 +9,7 @@ Page({
     autoplay: true,
     interval: 3000,
     duration: 1200,
+    image:['/images/test1.jpg','/images/test2.jpg','/images/test3.jpg'],
     list: [
       {
         id: 'view',

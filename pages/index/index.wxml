@@ -2,9 +2,11 @@
     <view >
       <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
         autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{background}}">
+        <block wx:for="{{image}}">
           <swiper-item>
-            <view class="swiper-item bc_{{item}}"></view>
+            <view class="swiper-item">
+                 <image style="width:1000rpx" src="{{item}}" mode="scaleToFill"/>
+            </view>
           </swiper-item>
         </block>
       </swiper>
@@ -19,7 +21,9 @@
                             <view><text class="widgets__info-name"
                             style="font-size:26rpx">{{item.name}}</text></view>     
                         </view>                     
-                        <view style="flex:0.3;background:#ffffff;height:100rpx;">test</view>
+                        <view style="flex:0.3;background:#ffffff;height:100rpx;">
+
+                        </view>
                     </view>
                 </view>
                 <view style="background-color: #FFFFFF; width: 40px;display: flex;"></view>
