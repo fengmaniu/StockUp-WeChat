@@ -16,6 +16,9 @@
     align-items: center;
     flex-direction: row;
 }
+.rowalign{
+    flex-direction: row;
+}
 .widgets__info_show{
 }
 .widgets__info_show .widgets__info-img{
