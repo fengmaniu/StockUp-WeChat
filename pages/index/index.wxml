@@ -1,4 +1,5 @@
 <view>
+<view >
   <view>
     <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{image}}">
@@ -10,8 +11,7 @@
       </block>
     </swiper>
   </view>
-  <view class="rowalign">
-    <view style="background:#fadfad;flex-direction: row;">test</view>
+  <view >
     <block wx:for-items="{{list}}">
       <view class="widgets__item">
         <view style="flex:1" id="{{item.id}}" class="widgets__info">
@@ -20,12 +20,14 @@
               <text class="widgets__info-name" style="font-size:46rpx">{{item.name}}</text>
             </view>
             <view>
-              <text class="widgets__info-name" style="font-size:26rpx">{{item.name}}</text>
+              <text class="widgets__info-name" style="font-size:26rpx">{{item.trend}}</text>
             </view>
           </view>
-          <view style="flex:0.3;background:#ffffff;height:100rpx;"></view>
+          <view style="flex:0.3;background:#ffffff;height:100rpx;">
+          <image style="height:100rpx;width:200rpx" src="{{item.image}}" mode="scaleToFill" /></view>
         </view>
       </view>
     </block>
   </view>
+</view>
 </view>
