@@ -5,8 +5,7 @@
 .widgets__item{
     margin-top: 10rpx;
     margin-bottom: 10rpx;
-    background-color: #FFFF00;
-    /*background-image: '/images/item-box.png';*/
+    background-color: #FFFFff;
     overflow: hidden;
     border-radius: 4rpx;
     cursor: pointer;

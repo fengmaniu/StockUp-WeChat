@@ -1,4 +1,4 @@
-<view>
+<page>
 <view >
   <view>
     <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
@@ -13,7 +13,7 @@
   </view>
   <view >
     <block wx:for-items="{{list}}">
-      <view class="widgets__item">
+      <view style="background-image:url('/images/item-box.png');" class="widgets__item">
         <view style="flex:1" id="{{item.id}}" class="widgets__info">
           <view style="flex:1;">
             <view>
@@ -30,4 +30,4 @@
     </block>
   </view>
 </view>
-</view>
+</page>
