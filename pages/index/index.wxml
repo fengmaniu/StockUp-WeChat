@@ -11,9 +11,9 @@
       </block>
     </swiper>
   </view>
-  <view >
+  <view style="">
     <block wx:for-items="{{list}}">
-      <view style="background-image:url('/images/item-box.png');" class="widgets__item">
+      <view style="background-color:#f2f2f2;width:96%;margin-left:auto;margin-right:auto;" class="widgets__item">
         <view style="flex:1" id="{{item.id}}" class="widgets__info">
           <view style="flex:1;">
             <view>
