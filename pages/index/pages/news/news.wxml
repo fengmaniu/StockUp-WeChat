@@ -1,0 +1,25 @@
+<page>
+  <view>
+    <view style="">
+
+      <block wx:for-items="{{list}}">
+        <view style="box-shadow:2rpx 2rpx 1rpx #444;background-color:#ffffff;width:96%;margin-top:20rpx;margin-left:auto;margin-right:auto;" class="widgets__item">
+          <view style="flex:1;display:flex" id="{{item.id}}" class="widgets__info">
+            <view style="flex:1;">
+              <view>
+                <text class="widgets__info-name" style="color:{{item.color}};font-size:46rpx;">{{item.name}}</text>
+              </view>
+              <view>
+                <text class="widgets__info-name" style="color:{{item.color}};font-size:26rpx">{{item.trend}}</text>
+              </view>
+            </view>
+            <view style="flex:0.3;background:#ffffff;height:100rpx;">
+              <image style="height:100rpx;width:160rpx;margin-right:0rpx" src="{{item.image}}" mode="scaleToFill" />
+            </view>
+          </view>
+        </view>
+      </block>
+
+    </view>
+  </view>
+</page>

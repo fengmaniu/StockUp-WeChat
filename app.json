@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/trend/trend",
     "pages/logs/logs",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/index/pages/news/news"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -12,6 +13,8 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+    "borderStyle":"white",
+    "selectedColor": "#ff3300",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "个股"
