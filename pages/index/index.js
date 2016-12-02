@@ -1,6 +1,11 @@
 //index.js
 //获取应用实例
 var app = getApp()
+var startX;
+var startY;
+var endX;
+var endY;
+var key;
 Page({
   data: {
     background: ['green', 'red', 'yellow'],
@@ -59,6 +64,24 @@ Page({
     this.setData({
       duration: e.detail.value
     })
+  },
+  slideStart:function(e){
+    var touch = e.touches[0];
+    startX = touch.clientX;
+    startY = touch.clientY;
+    key = true;
+  },
+  slideMove:function(e){
+    if(key){
+      var touch = e.touches[0];
+      endX = touch.clientX;
+      endY = touch.clientY;
+      if((endX-startX)>0){
+        console.log("right");
+      }else{
+        console.log("left");
+      }
+    }
   }
 })
 
