@@ -78,6 +78,19 @@ Page({
       endY = touch.clientY;
       if((endX-startX)>0){
         console.log("right");
+        wx.navigateTo({
+          url: 'pages/news/news',
+          success: function(res){
+            // success
+            console.log("success");
+          },
+          fail: function() {
+            // fail
+          },
+          complete: function() {
+            // complete
+          }
+        })
       }else{
         console.log("left");
       }

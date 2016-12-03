@@ -12,7 +12,7 @@
       </swiper>
     </view>
     <view style="">
-    <navigator url="pages/news/news">
+    <!--<navigator url="pages/news/news">-->
       <block wx:for-items="{{list}}">
         <view bindtouchstart="slideStart" bindtouchmove="slideMove" style="box-shadow:2rpx 2rpx 1rpx #444;background-color:#ffffff;width:96%;margin-top:20rpx;margin-left:auto;margin-right:auto;" class="widgets__item">
           <view style="flex:1;display:flex" id="{{item.id}}" class="widgets__info">
@@ -30,7 +30,7 @@
           </view>
         </view>
       </block>
-    </navigator>
+    <!--</navigator>-->
     </view>
   </view>
 </page>
