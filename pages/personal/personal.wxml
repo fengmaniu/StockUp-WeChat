@@ -1,0 +1,13 @@
+<!--personal.wxml-->
+
+<view class="page">   
+    <view class="section">
+        
+            <image class="image" src="{{src}}" mode="{{mode}}"> </image>
+            <view class="flex-item bc_green">1</view>
+            
+         
+    </view>
+</view>
+
+

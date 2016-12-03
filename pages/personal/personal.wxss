@@ -1,0 +1,33 @@
+/*personal.wxss  #fbf9fe*/
+
+page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+
+.section{ 
+
+  background-color: blue;
+  display: flex;   
+  justify-content: center;
+  padding: 10px 0; /*宽度 高度*/
+}
+
+
+.image{   
+    height: 80px;
+    
+    
+}
+
+.flex-item{
+  width: 100px;
+  height: 80px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
