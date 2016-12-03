@@ -6,18 +6,17 @@ page {
 }
 
 .section{ 
-
   background-color: blue;
   display: flex;   
-  justify-content: center;
-  padding: 10px 0; /*宽度 高度*/
+  justify-content: space-between;
+  padding: 20rpx 20rpx; /*宽度 高度*/
 }
 
 
 .image{   
-    height: 80px;
-    
-    
+    height: 160rpx;
+    width:320rpx;  
+
 }
 
 .flex-item{
@@ -26,7 +25,6 @@ page {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
-  
 }
 
 
