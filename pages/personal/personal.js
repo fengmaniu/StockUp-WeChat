@@ -2,9 +2,10 @@
 
 Page({
   data:{
-    src:'/images/test1.jpg',
-    mode:'left',
+    src:'/images/kiss.jpg',
+    mode:'aspectFit',
     list:'Landary',
-    money:"今日收益：666.66"
+    title:"今日收益：",
+    money:"666.66"
   }
 })
