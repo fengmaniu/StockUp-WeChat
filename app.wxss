@@ -43,4 +43,6 @@
 .bc_gray{
     background-color: #C9C9C9;
 }
-
+.bc_white{
+    background-color: #ffffff;
+}
