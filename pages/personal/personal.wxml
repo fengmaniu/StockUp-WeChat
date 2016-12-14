@@ -1,9 +1,10 @@
 <!--personal.wxml-->
 
-<view class="page">   
-    <view class="section">   
+<view class="page"> 
+    <view class="section-1"> 
+        <view class="section-1-1">
             <image class="image" src="{{src}}" mode="{{mode}}"> </image>
-            <view class="section-item bc_white">
+            <view class="section-item ">
                 <view class ="section-item-item">
                     <view class="section-item-item-item">
                         <text>{{list}}</text>
@@ -16,8 +17,20 @@
                         </view>
                     </view>    
                 </view>
-            </view>       
+            </view>
+        </view>
     </view>
-</view>
 
+    <view class="section-2">
+        <view class="section-2-butter">
+            <button type="default" size="default" bindtap="default" > +- </button>
+        </view>       
+        <view class="section-2-text">
+            <text>添加/移除个股</text>
+        </view>
+    </view>
 
+    <view class="section-3">
+        <button type="default" size="default" bindtap="default"> 退  出 </button>
+    </view>
+</view>    

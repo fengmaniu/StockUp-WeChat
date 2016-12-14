@@ -1,29 +1,40 @@
-/*personal.wxss  #fbf9fe*/
+/*personal.wxss  #f2f2f2*/
 
 page {
-  background-color: #fbf9fe;
+  background-color: #f2f2f2;
   height: 100%;
 }
 
-/*负责第一排的样式*/
-.section{ 
-  background-color: #fbf9fe;
+/*负责第一排的样式#f2f2f2*/
+.section-1{ 
+  background-color: #f2f2f2;
   display: flex;   
-  justify-content:space-between ;
-  height: 120px;
+  /*justify-content:space-between;*/
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section-1-1{ 
+  background-color: #ffffff;
+  display: flex;  
+  flex-direction:row;
+  /*justify-content:flex-start;*/
+  height: 100px;
   width: 100%;
 }
 
 /*规定图片的基本格式*/
 .image{   
   height: 100px;
-  padding: 10px;  
-
+  padding-left: 10px;  
+  flex:1;
+  border-radius:20rpx;
 }
 /*规定了图片右边的模块格式*/
 .section-item{
-  width: 800px;
-  height: 120px;  
+  flex:3;
+  height: 100px;  
   display: flex;
   flex-direction:column;
   /*align-items:center;*/
@@ -43,7 +54,35 @@ page {
   padding: 5px;
 }
 
-.section-item-item-item-color{
-  
+.section-item-item-item-color{ 
   color:red;
+}
+
+.section-2{
+  background-color: #ffffff;
+  display: flex;  
+  flex-direction:row;
+  justify-content:flex-start;
+  height: 50px;
+  width: 100%;
+}
+
+.section-2-butter{
+  margin-left: 10px;
+  margin-top: 2px;
+
+}
+.section-2-text{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.section-3{
+  background-color: #ffffff;
+  display: flex;  
+  flex-direction:row;
+  justify-content:flex-start;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
 }

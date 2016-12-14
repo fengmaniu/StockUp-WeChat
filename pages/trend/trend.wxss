@@ -1,34 +1,58 @@
-/*personal.wxss  #fbf9fe*/
+/*personal.wxss  #f2f2f2*/
 
 page {
-  background-color: #fbf9fe;
+  background-color: #f2f2f2;
   height: 100%;
 }
 
+/*负责第一排的样式#f2f2f2*/
 .section{ 
-  background-color: blue;
+  background-color: orangered;
   display: flex;   
-  justify-content: space-between;
-  height: 120px;
+  justify-content:space-between;
+  height: 140px;
   width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.section-1{ 
+  background-color: darkblue;
+  display: flex;  
+  flex-direction:row;
+  height: 140px;
+  width: 100%; 
 }
 
-
+/*规定图片的基本格式*/
 .image{   
   height: 100px;
-  margin: 10px 10px;  
+  padding: 10px;  
+  flex:1;
 
 }
-
-.flex-item{
-  width: 300px;
-  height: 100px;
-  color: #FFFFFF;
-  margin: 10px 10px; 
+/*规定了图片右边的模块格式*/
+.section-item{
+  flex:3;
+  height: 120px;  
   display: flex;
-  justify-content: center;
-   
+  flex-direction:column;
+  /*align-items:center;*/
+  
+}
+/*规定了小模块纵向的格式*/
+.section-item-item{
+  display: flex;
+  flex-direction: column;  
+  padding-top: 25px;
+
+}
+/*规定了小模块 今日收益 横排的格式*/
+.section-item-item-item{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
 }
 
-
-
+.section-item-item-item-color{ 
+  color:red;
+}

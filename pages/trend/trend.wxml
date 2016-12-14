@@ -1,11 +1,28 @@
 <!--personal.wxml-->
 
-<view class="page">   
-      
-            <image class="image" src="{{src}}" mode="{{mode}}"> </image>
-            <view class="flex-item bc_green">1</view>       
-    
-</view>
+<!--personal.wxml-->
+
+ 
+    <view class="section"> 
+        <view class="section-1">
+            <!--<image class="image" src="{{src}}" mode="{{mode}}"> </image>
+            <view class="section-item ">
+                <view class ="section-item-item">
+                    <view class="section-item-item-item">
+                        <text>{{list}}</text>
+                    </view>
+                   
+                    <view class="section-item-item-item">
+                        <text> {{title}} </text>
+                        <view class="section-item-item-item-color ">
+                            <text> {{money}} </text>
+                        </view>
+                    </view>    
+                </view>
+            </view>-->
+        </view>
+    </view>
+
 
 
 
